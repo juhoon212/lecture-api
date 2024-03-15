@@ -20,7 +20,7 @@
     </appender>
 
     <!-- APP -->
-    <logger name="twentyoz.viven" level="INFO"/>
+    <logger name="twentyoz.lecture" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>

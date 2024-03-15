@@ -3,7 +3,7 @@
     <include resource="logback-base.xml"/>
 
     <!-- APP -->
-    <logger name="twentyoz.viven" level="DEBUG"/>
+    <logger name="twentyoz.lecture" level="DEBUG"/>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
