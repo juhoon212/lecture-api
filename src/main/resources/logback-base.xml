@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+  <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+  <property name="PATTERN" value="[%d{HH:mm:ss.SSS}] [%thread] [%-5level] %-40.40logger{39} : %msg%n"/>
+
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+    </encoder>
+  </appender>
+
+  <!-- >>>>> log4jdbc-->
+  <logger name="jdbc.sqlonly" level="info"/>
+  <logger name="jdbc.sqltiming" level="off"/>
+  <logger name="java.sql" level="off"/>
+  <logger name="jdbc.audit" level="off"/>
+  <logger name="jdbc.resultset" level="off"/>
+  <logger name="jdbc.resultsettable" level="off"/>
+  <logger name="jdbc.connection" level="off"/>
+  <!-- <<<<< log4jdbc-->
+</included>

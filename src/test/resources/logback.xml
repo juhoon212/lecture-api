@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="5 seconds">
+
+  <property name="logdir" value="${user.home}/.temp/logs"/>
+
+  <property name="pattern" value="[%d{HH:mm:ss.SSS}] [%thread] [%-5level] %-40.40logger{39} : %msg%n" />
+
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${pattern}</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="junit.log" class="ch.qos.logback.core.FileAppender">
+    <file>${logdir}/junit.log</file>
+    <append>false</append>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <pattern>${pattern}</pattern>
+    </encoder>
+  </appender>
+
+  <!-- >>>>> log4jdbc-->
+  <logger name="jdbc.sqlonly" level="off"/>
+  <logger name="jdbc.sqltiming" level="off"/>
+  <logger name="java.sql" level="off"/>
+  <logger name="jdbc.audit" level="off"/>
+  <logger name="jdbc.resultset" level="off"/>
+  <logger name="jdbc.resultsettable" level="off"/>
+  <logger name="jdbc.connection" level="off"/>
+  <!-- <<<<< log4jdbc-->
+
+  <!-- APP -->
+  <logger name="kr.twoz.kenya.backend" level="info"/>
+
+  <root level="info">
+    <appender-ref ref="console"/>
+<!--    <appender-ref ref="junit.log"/>-->
+  </root>
+
+</configuration>
