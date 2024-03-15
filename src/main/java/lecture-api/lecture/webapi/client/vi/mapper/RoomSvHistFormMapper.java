@@ -1,7 +1,7 @@
 package twentyoz.viven.webapi.client.vi.mapper;
 
 import java.util.List;
-import twentyoz.viven.feature.vi.model.ViRoomSvHist;
+
 import twentyoz.viven.webapi.client.vi.form.RoomSvHistForm.Output.Get;
 import twentyoz.viven.webapi.client.vi.form.RoomSvHistForm.Output.GetAll;
 import org.mapstruct.Builder;

@@ -2,7 +2,6 @@ package twentyoz.viven.feature.vi.service;
 
 import java.util.UUID;
 import twentyoz.viven.feature.vi.mapper.ViRoomMapper;
-import twentyoz.viven.feature.vi.model.ViRoom;
 import twentyoz.viven.feature.vi.repository.ViRoomRepository;
 import twentyoz.viven.util.UidUtils;
 import lombok.RequiredArgsConstructor;

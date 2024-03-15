@@ -3,7 +3,6 @@ package twentyoz.viven.webapi.client.vi.mapper;
 import org.mapstruct.Mapper;
 import java.util.List;
 import org.mapstruct.Builder;
-import twentyoz.viven.feature.vi.model.ViRoomAuth;
 import twentyoz.viven.webapi.client.vi.form.RoomAuthForm;
 
 @Mapper(

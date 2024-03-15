@@ -11,7 +11,6 @@ import twentyoz.viven.feature.sy.model.QSyAttachFile;
 import twentyoz.viven.feature.vi.model.QViCtt;
 import twentyoz.viven.feature.vi.model.QViRoom;
 import twentyoz.viven.feature.vi.model.QViRoomConnHist;
-import twentyoz.viven.feature.vi.model.ViRoomConnHistDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;

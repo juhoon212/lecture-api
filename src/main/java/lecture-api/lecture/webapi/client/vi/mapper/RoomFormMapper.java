@@ -1,7 +1,7 @@
 package twentyoz.viven.webapi.client.vi.mapper;
 
 import java.util.List;
-import twentyoz.viven.feature.vi.model.ViRoom;
+
 import twentyoz.viven.webapi.client.vi.form.RoomForm.Input.Add;
 import twentyoz.viven.webapi.client.vi.form.RoomForm.Input.Modify;
 import twentyoz.viven.webapi.client.vi.form.RoomForm.Output.Get;

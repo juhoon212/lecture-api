@@ -1,7 +1,7 @@
 package twentyoz.viven.webapi.client.vi.mapper;
 
 import java.util.List;
-import twentyoz.viven.feature.vi.model.ViRoomConnHist;
+
 import twentyoz.viven.webapi.client.vi.form.RoomConnHistForm.Output.Get;
 import twentyoz.viven.webapi.client.vi.form.RoomConnHistForm.Output.GetAll;
 import org.mapstruct.Builder;

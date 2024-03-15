@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 import twentyoz.viven.feature.common.security.UserInfo;
-import twentyoz.viven.feature.vi.model.ViRoomSv;
 import twentyoz.viven.webapi.client.vi.form.RoomForm;
 import twentyoz.viven.webapi.client.vi.mapper.RoomFormMapper;
 import twentyoz.viven.webapi.client.vi.predicate.RoomFormPredicate;

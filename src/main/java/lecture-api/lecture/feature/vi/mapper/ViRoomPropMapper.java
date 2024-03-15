@@ -1,6 +1,5 @@
 package twentyoz.viven.feature.vi.mapper;
 
-import twentyoz.viven.feature.vi.model.ViRoomProp;
 import org.mapstruct.Mapper;
 
 @Mapper

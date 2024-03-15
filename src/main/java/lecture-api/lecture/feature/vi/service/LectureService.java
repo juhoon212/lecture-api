@@ -11,7 +11,6 @@ import org.springframework.data.domain.Sort.*;
 import java.util.List;
 import twentyoz.viven.feature.vi.model.ViLecture;
 import twentyoz.viven.feature.vi.model.QViLecture;
-import twentyoz.viven.feature.vi.model.ViRoom;
 import twentyoz.viven.feature.vi.repository.ViLectureRepository;
 import twentyoz.viven.feature.vi.mapper.ViLectureMapper;
 import java.util.UUID;

@@ -4,7 +4,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 import twentyoz.viven.feature.common.security.UserInfo;
-import twentyoz.viven.feature.vi.model.ViRoomConnHistDto;
 import twentyoz.viven.webapi.client.vi.mapper.RoomConnHistFormMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

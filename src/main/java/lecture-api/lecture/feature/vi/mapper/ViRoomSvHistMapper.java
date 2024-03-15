@@ -1,6 +1,5 @@
 package twentyoz.viven.feature.vi.mapper;
 
-import twentyoz.viven.feature.vi.model.ViRoomSvHist;
 import org.apache.commons.lang3.StringUtils;
 import org.mapstruct.Mapper;
 

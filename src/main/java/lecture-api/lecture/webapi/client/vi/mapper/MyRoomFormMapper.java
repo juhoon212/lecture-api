@@ -1,6 +1,5 @@
 package twentyoz.viven.webapi.client.vi.mapper;
 
-import twentyoz.viven.feature.vi.model.ViRoom;
 import twentyoz.viven.webapi.client.vi.form.MyRoomForm.Output.Get;
 import org.mapstruct.Builder;
 import org.mapstruct.Mapper;
